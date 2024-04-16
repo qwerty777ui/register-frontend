@@ -1,0 +1,74 @@
+.mes {
+    width: calc(50% - 30px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+}
+.mes.active {
+    max-height: 59px;
+}
+
+.mes p {
+    margin: 0;
+}
+
+.mes.active svg {
+    transform: rotate(180deg);
+    transition: ease 0.2s;
+}
+.mes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    margin-right: 24px;
+}
+
+.mes-head-wrap {
+    display: flex;
+}
+
+.mes-info {
+    margin-left: 10px;
+}
+
+.mes-heading {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mes-date {
+    margin-top: 7px;
+    color: #BABABA;
+}
+
+.arrow svg path{
+    width: 18px;
+    height: 9px;
+    stroke: grey;
+    transition: ease-in 0.2s;
+}
+.mes-body {
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.delButton {
+    background-color: rgb(245, 47, 47);
+    border: none;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: auto;
+    display: flex;
+ }

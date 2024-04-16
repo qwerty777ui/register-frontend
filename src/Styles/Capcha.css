@@ -1,0 +1,17 @@
+.capcha input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BABABA;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.capcha label {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.capcha img {
+    height: 50px;
+    width: 150px;
+}

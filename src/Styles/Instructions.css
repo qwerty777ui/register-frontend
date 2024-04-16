@@ -1,0 +1,56 @@
+.inst-container {
+    display: flex;
+    align-items: center;
+}
+.inst-img {
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.triangle {
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-top-width: 60px;
+    border-left-width: 30px;
+    border-right-width: 0;
+    border-bottom-width: 60px;
+    border-top-color: transparent;
+    border-left-color: 0095F6;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.inst-img svg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    fill: white;
+    padding-bottom: 10px;
+}
+
+
+.inst-wrap {
+    border: 1px solid #BABABA;
+    border-bottom: transparent;
+}
+.inst-container2 {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    box-shadow: -2px -1px 4px rgba(0, 0, 0, 0.15), 0px 4px 2px rgba(0, 0, 0, 0.15);
+    margin: 5px;
+}
+.inst-img2 {
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.inst-img2 svg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    fill: white;
+    padding-bottom: 10px;
+}

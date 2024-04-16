@@ -1,0 +1,43 @@
+.checkMes-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #BABABA;
+}
+.checkMes-container h2 {
+    color: #0095F6;
+    padding: 20px;
+}
+.checkMes-form {
+    display: flex;
+    width: 850px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #BABABA;
+    padding: 30px;
+}
+.checkMes-form input[type="text"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+}
+.checkMes-form input[type="submit"] {
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: #0095F6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -2px -1px 4px rgba(0, 0, 0, 0.15), 0px 4px 2px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
